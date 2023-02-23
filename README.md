@@ -19,7 +19,7 @@
 </br>
 
 ### 3.ERD
-<img src="./ERD.png" width="500" height="500">
+<img src="./쇼핑몰ERD.png" width="500" height="500">
 
 </br>
 
