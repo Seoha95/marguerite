@@ -71,7 +71,11 @@
 다르게 설정해서 분리 시킬 수 있었습니다.   
        
 <details>      
-<summary>개선된 코드</summary>           	
+<summary>개선된 코드</summary>      
+   
+<img src="./이동경로설정2.PNG" width="700" height="700">   
+   
+<img src="./이동경로설정.PNG" width="900" height="900">    
 </details>   
    
    
