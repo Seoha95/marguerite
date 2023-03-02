@@ -57,11 +57,14 @@
  
 #### 4-5 회원정보 조회 
  * 관리자모드 회원정보 조회 기능 📍[코드확인](https://github.com/Seoha95/marguerite/blob/main/src/dao/DAO.java#:~:text=//%20%EA%B4%80%EB%A6%AC%EC%9E%90%ED%9A%8C%EC%9B%90%EC%A0%95%EB%B3%B4-,public%20ArrayList%3CUserInfoVO%3E%20getMemberInfo()%20throws%20SQLException%7B,%7D,-//%20%EA%B4%80%EB%A6%AC%EC%9E%90%EC%9A%A9%20%EC%A3%BC%EB%AC%B8%EB%82%B4%EC%97%AD%ED%99%95%EC%9D%B8)   
+   * SIGNUP3, shipping 테이블을 id로 조인하여 회원의 정보를 조회합니다.    
+   * 회원의 아이디, 비밀번호, 전화번호, 이름, 주소를 확인할 수 있습니다.      
  
 </br>
 </details>   
    
-### 5.핵심 트러블 슈팅 
+### 5.핵심 트러블 슈팅   
+
    
 ### 6. 느낀점
 
