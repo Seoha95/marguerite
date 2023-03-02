@@ -69,11 +69,19 @@
 선택한 상품을 결제할 때는 아임포트 결제 API 페이지가 띄워지고 상품을 삭제를 할 때에도    
 아임포트 결제 API 페이지를 들렸다가 삭제가 되는 문제가 있었으나 버튼 클릭시 이동페이지를    
 다르게 설정해서 분리 시킬 수 있었습니다.   
-       
+   
+<details>      
+<summary>기존코드</summary>      
+   
+<img src="./" width="600" height="600">   
+   
+<img src="./" width="900" height="900">    
+</details>       
+          
 <details>      
 <summary>개선된 코드</summary>      
    
-<img src="./이동경로설정2.PNG" width="700" height="700">   
+<img src="./이동경로설정2.PNG" width="600" height="600">   
    
 <img src="./이동경로설정.PNG" width="900" height="900">    
 </details>   
