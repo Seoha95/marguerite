@@ -33,10 +33,11 @@
    
 #### 4-1. 전체흐름   
 
-<img src="" width="500" height="500">   
+<img src="./프로그램구조.PNG" width="500" height="500">   
 
 </br>
-</details>
+</details>   
+   
 ### 5.핵심 트러블 슈팅 
    
 ### 6. 느낀점
