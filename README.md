@@ -72,44 +72,7 @@
        
 <details>      
 <summary>개선된 코드</summary>           	
-'''               
-           <input type="hidden" name="pimage" value="${plist.pimage }" />   
-           <input type="hidden" name="code" value="${plist.code }" />   
-           <input type="hidden" name="category" value="${plist.category }" />   
-           <input type="hidden" name="pname" value="${plist.pname }" />   
-           <input type="hidden" name="psize" value="${plist.psize }" />   
-        
-        <div class="count">   
-               <span class="minusBox" onclick="location.href='basketCountDown.do?pname=${plist.pname}&psize=${plist.psize}'">-</span>   
-               <input class="count" id="count" type="text"  size="2" name="count" value="${plist.count}" max="10" />    
-               <span class="plusBox" onclick="location.href='basketCountUp.do?pname=${plist.pname}&psize=${plist.psize}'">+</span>   
-        </div>   
-        <div class="price"><input type="text" name="totalPrice" id="totalPrice" value="${plist.price}" size="8" /></div>   
-        <div class="deliveryFee">2500</div>   
-        <div class="manage"><input type="button" onclick="routeSetting('1')"  value="삭제"/></div>   
-        <input type="hidden" name="price" value="${plist.price }" />   
-     </div>   
-  </c:forEach>   
-  </div>   	
-  </div>   
-  <div class="cartList2">   
-      <div class="cartFooter">    
-         <div class="totPrice">총 상품금액</div>    
-         <div class="totDeliveryFee">총 배송비</div>     
-         <div class="totFee">결제예정금액</div>     
-      </div>     
-      <div class="cartTot">    
-         <div class="totPrice"><input type="text" id="totalSangPum" value="0" size="10" /></div>   
-         <div class="totDeliveryFee"><input type="text" value="2500" size="10"/></div>   
-         <div class="totFee"><input type="text" name="totalPrice" id="payment" value="0" size="10"/></div>   
-      </div>   
-  </div>    
-  <div class="submitDiv" >    
-     <input type="button" name="paymentBtn" value="결제하기" onclick="routeSetting('2')"/>    
-  </div>   
-  </form>        
-'''         
-</details>    
+</details>   
    
    
 ### 6. 느낀점
