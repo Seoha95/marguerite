@@ -73,9 +73,8 @@
 <details>      
 <summary>기존코드</summary>      
    
-<img src="./" width="600" height="600">   
-   
-<img src="./" width="900" height="900">    
+<img src="./기존코드.png" width="600" height="600">   
+     
 </details>       
           
 <details>      
