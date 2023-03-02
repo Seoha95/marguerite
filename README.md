@@ -34,7 +34,13 @@
 #### 4-1. 전체흐름   
 
 <img src="./프로그램구조.PNG" width="500" height="500">   
-
+   
+#### 4-2. Controller
+ * 요청처리 📍[코드확인](https://github.com/Seoha95/marguerite/blob/main/src/com/shop/controller/frontcontroller.java#:~:text=Blame-,package%20com.shop.controller%3B,%7D,-Give%20feedback)  
+   * 사용자가 원하는 기능을 처리하기 위한 모든 요청을 컨트롤러에 보냅니다.   
+   * 컨트롤러는 모델을 사용해서 알맞은 비즈니스 로직을 수행합니다.   
+   * 사용자에게 보여줄 뷰를 선택합니다.   
+   * 선택된 뷰는 사용자가 선택한 결과 화면을 보여줍니다.   
 </br>
 </details>   
    
