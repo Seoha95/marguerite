@@ -43,10 +43,21 @@
    * 선택된 뷰는 사용자가 선택한 결과 화면을 보여줍니다.   
    
 #### 4-3. 장바구니   
+ * 장바구니에 상품 담기 📍[코드확인](https://github.com/Seoha95/marguerite/blob/main/src/dao/DAO.java#:~:text=%EC%97%90%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%80%EC%9E%A5-,public%20ArrayList%3CBasketVO%3E%20insertBasket(BasketVO%20bvo)%20%7B,%7D,-public%20ArrayList%3C)   
+    * 이미 있는 상품을 장바구니에 담았을 때 수량만 업데이트하고 없는 상품을 담았을 때 insert를 할 수 있습니다.   
    
-#### 4-4. 아임포트 결제API   
+#### 4-4. 검색기능   
+ * 상품 검색 기능 📍[코드확인](https://github.com/Seoha95/marguerite/blob/main/src/dao/DAO.java#:~:text=%7D-,public%20ArrayList%3CProductVO%3E%20outerProductInfo()%20throws%20SQLException%20%7B,%7D,-//%20%EC%A3%BC%EB%AC%B8%EB%82%B4%EC%97%ADDB%EC%97%90)   
+    * 상품을 검색하는 기능입니다.      
    
-   
+#### 4-4. 베스트 상품보기   
+ * 베스트 상품 띄우기 기능 📍[코드확인](https://github.com/Seoha95/marguerite/blob/main/src/dao/DAO.java#:~:text=%7D-,public%20ArrayList%3CProductVO%3E%20bestProductInfo()%20throws%20SQLException%7B,%7D,-public%20ArrayList%3C)    
+    * PRODUCT3 테이블을 판매량과 가격을 내림차순으로 정렬해서 10개의 상품만 검색되도록 작성했습니다.    
+    * 판매량이 높고 가격이 높은 10개 상품이 베스트 상품으로 뜨게 됩니다.   
+ 
+#### 4-5 회원정보 조회 
+ * 관리자모드 회원정보 조회 기능 📍[코드확인](https://github.com/Seoha95/marguerite/blob/main/src/dao/DAO.java#:~:text=//%20%EA%B4%80%EB%A6%AC%EC%9E%90%ED%9A%8C%EC%9B%90%EC%A0%95%EB%B3%B4-,public%20ArrayList%3CUserInfoVO%3E%20getMemberInfo()%20throws%20SQLException%7B,%7D,-//%20%EA%B4%80%EB%A6%AC%EC%9E%90%EC%9A%A9%20%EC%A3%BC%EB%AC%B8%EB%82%B4%EC%97%AD%ED%99%95%EC%9D%B8)   
+ 
 </br>
 </details>   
    
