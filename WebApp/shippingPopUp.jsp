@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>배송지관리</title>
+<title>marguerite</title>
 
 <style>
 	

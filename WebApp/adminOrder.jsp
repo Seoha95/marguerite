@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>주문</title>
+<title>marguerite</title>
 <link rel="stylesheet" href="css/style.css" />
 <style>
 

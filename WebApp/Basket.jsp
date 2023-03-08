@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>장바구니</title>
+<title>marguerite</title>
 <style>
 
 	header{
@@ -223,7 +223,7 @@ function routeSetting(path){
    <header>
       <div class="headerArea">
             
-         <div><a href="./index.jsp"><span>marguerite</span></a></div>
+         <div><a href="./"><span>marguerite</span></a></div>
          <div><a href="best.do"><span>best</span></a></div>
          <div><a href="outer.do"><span>outer</span></a></div>
          <div><a href="top.do"><span>top</span></a></div>

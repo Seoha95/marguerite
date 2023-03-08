@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>SIGN UP</title>
+<title>marguerite</title>
 <script>
 	function checkInfo() {
 		if(document.userInfo.pw.value != document.userInfo.pw2.value) {

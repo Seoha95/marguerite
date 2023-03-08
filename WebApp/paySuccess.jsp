@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>marguerite</title>
 <link rel="stylesheet" href="css/style.css" />
 <style>
 
@@ -86,7 +86,7 @@
     <header>
 		<div class="headerArea">
 				
-			<div><a href="#"><span>marguerite</span></a></div>
+			<div><a href="./"><span>marguerite</span></a></div>
 			<div><a href="best.do"><span>best</span></a></div>
 			<div><a href="outer.do"><span>outer</span></a></div>
 			<div><a href="top.do"><span>top</span></a></div>
