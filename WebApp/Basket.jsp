@@ -1,46 +1,13 @@
 <%@page import="vo.BasketVO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>   
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>marguerite</title>
 <style>
-
-	header{
-      background-color: #E4E5CA;
-      padding-top: 10px;
-      padding-bottom: 30px;
-      
-      
-   }
-
-   .headerArea{
-      display:flex;
-      align-items:center;
-      margin-top:25px;
-   }
-   
-   .headerArea > div{
-      margin: 0px 20px;
-      display:flex;
-   }
-   
-   
-   .headerArea > div > a{
-      color: black;
-      text-decoration-line: none;
-   }
-   
-   
-   .headerArea > div > a > span{
-      font-size:30px;
-      font-weight: 550;
-   }
-
+	.wrap {
+	  position: relative;
+	  min-height: 100%;
+	  padding-bottom: 114px;
+	  overflow:hidden;
+	}
 	.cartHeader{
 		margin-top: 100px;
 		border-top: 2px solid blue;
@@ -174,11 +141,8 @@
       font-weight: 600;
       
    
-   }
-   
+   }  
 </style>
-
-</head>
 
 <script>
 
@@ -215,57 +179,8 @@ function routeSetting(path){
 
 
 </script>
-
-
-<body>
-
-
-   <header>
-      <div class="headerArea">
-            
-         <div><a href="./"><span>marguerite</span></a></div>
-         <div><a href="best.do"><span>best</span></a></div>
-         <div><a href="outer.do"><span>outer</span></a></div>
-         <div><a href="top.do"><span>top</span></a></div>
-         <div><a href="bottom.do"><span>bottom</span></a></div>
-         <div><a href="shoes_bag.do"><span>shoes&bag</span></a></div>
-         <div><a href="dress.do"><span>dress</span></a></div>
-         <div>
-            <form action="search.do" >
-               <input type="text" name="searchItem"/>
-               <input type="submit" value="search" />
-            </form>
-         </div>
-         <%
-               int login = 0;
-   
-            if (session.getAttribute("login") != null) {
-               login = (int) session.getAttribute("login");
-            }
-   
-            if (login != 2) {
-            %>
-   
-            <div>
-               <a href="login.jsp"><span>로그인</span></a>
-            </div>
-            <%
-               } else {
-            %>
-   
-            <div>
-               <a href="userInfo.do"><span>유저정보</span></a>
-            </div>
-            <div>
-               <a href="logout.do"><span>로그아웃</span></a>
-            </div>
-            <%
-               }
-            %>
-         <div><a href="basketList.do"><span>장바구니</span></a></div>
-         
-      </div>   
-   </header>
+<div class="wrap">
+<%@ include file="/set/header.jsp" %>
 	<div class="cart_list">
    <div class="cartHeader">
    	  <div class="check"></div> 	
@@ -326,5 +241,6 @@ function routeSetting(path){
          <input type="button" name="paymentBtn" value="결제하기" onclick="routeSetting('2')"/>
       </div>
       </form>
-</body>
-</html>
+      
+      <%@ include file="/set/footer.jsp" %>
+</div>

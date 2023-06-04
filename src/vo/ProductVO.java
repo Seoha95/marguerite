@@ -6,9 +6,9 @@ public class ProductVO {
 	private String pname;    //상품명 
 	private String category; //카테고리
 	private String color;    //색상
-	private int quantity;    //수량
+	private int quantity;    // 판매량
 	private String psize;    //상품사이즈
-	private int amount;       //매출
+	private int amount;       //재고
 	private int price;       //가격
 	private String pimage;   //상품이미지
 	

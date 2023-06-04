@@ -16,7 +16,7 @@ public class CommandOuterProduct implements CommandImpl {
 		request.setCharacterEncoding("utf-8");
 		response.setCharacterEncoding("utf-8");
 		
-		
+		String category = request.getParameter("category");
 		
 		//DAO생성
 		
@@ -25,7 +25,7 @@ public class CommandOuterProduct implements CommandImpl {
 		
 		ArrayList<ProductVO> plist = null;
 		
-		plist = odao.outerProductInfo();
+		plist = odao.search(category);
 		request.setAttribute("plist", plist);
 
 	}

@@ -16,7 +16,7 @@ public class CommandTopProduct implements CommandImpl {
 		request.setCharacterEncoding("utf-8");
 		response.setCharacterEncoding("utf-8");
 		
-		
+		String category = request.getParameter("category");
 		
 		//DAO생성
 		
@@ -25,7 +25,7 @@ public class CommandTopProduct implements CommandImpl {
 		
 		ArrayList<ProductVO> plist = null;
 		
-		plist = sdao.topProductInfo();
+		plist = sdao.search(category);
 		request.setAttribute("plist", plist);
 		
 		

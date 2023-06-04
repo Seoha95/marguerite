@@ -17,7 +17,7 @@ public class CommandBottomProduct implements CommandImpl {
 		request.setCharacterEncoding("utf-8");
 		response.setCharacterEncoding("utf-8");
 		
-		
+		String category = request.getParameter("category");
 		
 		//DAO생성
 		
@@ -26,7 +26,7 @@ public class CommandBottomProduct implements CommandImpl {
 		
 		ArrayList<ProductVO> plist = null;
 		
-		plist = bdao.bottomProductInfo();
+		plist = bdao.search(category);
 		request.setAttribute("plist", plist);
 		
 
