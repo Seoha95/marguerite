@@ -47,7 +47,7 @@
     * 이미 있는 상품을 장바구니에 담았을 때 수량만 업데이트하고 없는 상품을 담았을 때 insert를 할 수 있습니다.   
    
 #### 4-4. 검색기능   
- * 상품 검색 기능 📍[코드확인](https://github.com/Seoha95/marguerite/blob/8a785e7e7adf4bf9632a3b73bb1d144eee24c273/src/dao/DAO.java#L308-L331)   
+ * 상품 검색 기능 📍[코드확인](https://github.com/Seoha95/marguerite/blob/1fb810d8ee963d0f779f423048e90d01b9295b1b/src/dao/DAO.java#L205-L232)   
     * 상품을 검색하는 기능입니다.      
    
 #### 4-4. 베스트 상품보기   
